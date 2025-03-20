@@ -1,7 +1,7 @@
 Tests that Lucene 10 produces
 ```
-"[abc]+" -> "abc"
-"[ABC]+" -> "ABC"
+"[abc]+" -> "abc", "ABC"
+"[ABC]+" -> "abc", "ABC"
 "[a-c]+" -> "abc"
 "[A-C]+" -> "ABC"
 ```
